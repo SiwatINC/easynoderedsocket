@@ -25,5 +25,5 @@ class TCPSocketClient:
             self.__write_buffer__.append(str(payload))
     def read(self) -> str:
         if self.__read_buffer__:
-            return self.__data_buffer__.pop(0)
+            return self.__read_buffer__.pop(0)
         return ""
