@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='easynoderedsocket',
-    version='1.1',
+    version='1.2',
     license='Apache 2.0',
     author="Siwat Sirichai",
     author_email='siwat@siwatinc.com',

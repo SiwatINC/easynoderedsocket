@@ -27,3 +27,9 @@ class TCPSocketClient:
         if self.__read_buffer__:
             return self.__read_buffer__.pop(0)
         return ""
+    def get_buffer_length(self) -> int:
+        return len(self.__read_buffer__)
+    def is_avaliable(self):
+        if self.__read_buffer__:
+            return True
+        return False
